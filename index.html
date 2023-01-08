@@ -4,8 +4,8 @@
     <style>
       body {
         background-color: #00040D;
-        height: 2000px; /* or any other value */
-        overflow-y: scroll;
+        /* remove the height property */
+        overflow-y: hidden; /* or any other value */
       }
       h1 {
         color: #1cbced;
@@ -31,6 +31,11 @@
       .button:hover {
         transform: scale(1.2);
       }
+      /* add the following styles */
+      .text {
+        font-family: 'Comfortaa', sans-serif;
+        color: #1cbced;
+      }
     </style>
   </head>
   <body>
@@ -39,11 +44,8 @@
       <a href="https://app.mediafire.com/1izhypyfikekq" class="button">Download</a>
       <a href="https://discord.gg/WCR4kQfe" class="button">Contact</a>
     </div>
-    <!-- additional buttons -->
-    <div id="buttons" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
-      <a href="#" class="button" style=" 
-    </div>
+    <!-- add the following HTML -->
+    <div class="text" style="margin-top: 50px; text-align: center;">Beta 1.8.8</div>
+    <div class="text" style="margin-top: 10px; text-align: center;">Updates coming soon...</div>
   </body>
 </html>
-
-
